@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "title": "Real Madrid Local 2025/26",
+    "team": "Real Madrid",
+    "league": "LaLiga",
+    "season": "2025/26",
+    "description": "Camiseta local blanca con estilo elegante y acabado moderno.",
+    "longDescription": "Modelo inspirado en la primera equipación del club. Ideal para uso diario, colección o venta en tienda online. Diseño limpio, deportivo y fácil de combinar.",
+    "price": 39.95,
+    "image": "img/barcelona_local_2526.webp",
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": 2,
+    "title": "Real Madrid Visitante 2025/26",
+    "team": "Real Madrid",
+    "league": "LaLiga",
+    "season": "2025/26",
+    "description": "Segunda equipación con un diseño alternativo moderno.",
+    "longDescription": "Una versión visitante con presencia visual fuerte y estilo actual. Perfecta para ampliar catálogo y mostrar más variedad del mismo equipo.",
+    "price": 41.95,
+    "image": "img/rm-away.jpg"
+  },
+  {
+    "id": 3,
+    "title": "FC Barcelona Local 2025/26",
+    "team": "FC Barcelona",
+    "league": "LaLiga",
+    "season": "2025/26",
+    "description": "Diseño azulgrana clásico con imagen potente.",
+    "longDescription": "Camiseta pensada para fans del Barça que buscan una prenda reconocible, cómoda y muy visual. Muy buena para mostrar en portada y filtros por equipo.",
+    "price": 40.50,
+    "image": "img/barca-local.jpg"
+  },
+  {
+    "id": 4,
+    "title": "FC Barcelona Visitante 2025/26",
+    "team": "FC Barcelona",
+    "league": "LaLiga",
+    "season": "2025/26",
+    "description": "Versión visitante ligera y llamativa.",
+    "longDescription": "Diseño alternativo para ampliar oferta del club. Ideal para usuarios que buscan una camiseta distinta a la clásica local.",
+    "price": 42.50,
+    "image": "img/barca-away.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Manchester City Local 2025/26",
+    "team": "Manchester City",
+    "league": "Premier League",
+    "season": "2025/26",
+    "description": "Modelo celeste limpio y elegante.",
+    "longDescription": "Una camiseta con imagen moderna y muy reconocible, perfecta para una tienda visualmente ordenada y con clubes internacionales.",
+    "price": 43.90,
+    "image": "img/city-local.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Manchester City Alternativa 2025/26",
+    "team": "Manchester City",
+    "league": "Premier League",
+    "season": "2025/26",
+    "description": "Equipación alternativa con enfoque moderno.",
+    "longDescription": "Buena opción para dar variedad a la categoría Premier League. Queda muy bien junto a la local en listados por equipo.",
+    "price": 41.20,
+    "image": "img/city-away.jpg"
+  },
+  {
+    "id": 7,
+    "title": "PSG Local 2025/26",
+    "team": "PSG",
+    "league": "Ligue 1",
+    "season": "2025/26",
+    "description": "Camiseta azul oscura con toque premium.",
+    "longDescription": "Un modelo con presencia muy potente visualmente. Ideal para destacar en la tienda y en fichas individuales.",
+    "price": 44.90,
+    "image": "img/psg-local.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Bayern Munich Local 2025/26",
+    "team": "Bayern Munich",
+    "league": "Bundesliga",
+    "season": "2025/26",
+    "description": "Diseño rojo clásico con acabado deportivo.",
+    "longDescription": "Prenda pensada para catálogo europeo. Da equilibrio al filtro por ligas y añade variedad al bloque de equipos internacionales.",
+    "price": 42.90,
+    "image": "img/bayern-local.jpg"
+  }
+]

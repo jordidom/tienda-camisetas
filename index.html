@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GolStyle Shop</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="top-banner">
+    <div class="container top-banner-content">
+      <div class="top-banner-left">
+        <span class="top-banner-badge">OFERTA</span>
+        <p>Pedidos por WhatsApp · Pago por Bizum · Atención directa y rápida</p>
+      </div>
+      <div class="top-banner-right">
+        <span>🚚 Envío disponible</span>
+        <span>⚽ Camisetas de fútbol</span>
+        <span>📲 Pedido fácil</span>
+      </div>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <div class="container topbar-content">
+      <a href="index.html" class="logo-wrap">
+        <div class="logo-badge">GS</div>
+        <div>
+          <h1>GolStyle Shop</h1>
+          <p>Camisetas de fútbol</p>
+        </div>
+      </a>
+
+      <div class="top-actions">
+        <div class="shop-notice">
+          Pedido por <strong>WhatsApp</strong> · Pago por <strong>Bizum</strong>
+        </div>
+
+        <a href="#cartPanel" class="cart-nav-btn">
+          🛒 Carrito
+          <span id="navCartCount" class="cart-count">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <span class="hero-tag">Tienda online simple</span>
+        <h2>Encuentra camisetas por equipo y liga</h2>
+        <p>
+          Explora camisetas de fútbol con un diseño limpio y fácil de usar.
+          El pedido se hace por WhatsApp y el pago por Bizum.
+        </p>
+      </div>
+
+      <div class="hero-info-card">
+        <h3>Cómo comprar</h3>
+        <p>1. Añade camisetas al carrito.</p>
+        <p>2. Pulsa en pedir por WhatsApp.</p>
+        <p>3. Se enviará tu selección automáticamente.</p>
+        <p>4. El pago se realiza por Bizum.</p>
+      </div>
+    </div>
+  </section>
+
+  <main class="container shop-layout">
+    <aside class="sidebar">
+      <div class="sidebar-card">
+        <h3>Buscar</h3>
+        <input type="text" id="searchInput" class="search-input" placeholder="Buscar camiseta..." />
+      </div>
+
+      <div class="sidebar-card">
+        <h3>Equipos</h3>
+        <div class="filter-list" id="teamFilters">
+          <button class="filter-btn active" data-type="all" data-value="all">Todas</button>
+          <button class="filter-btn" data-type="team" data-value="Real Madrid">Real Madrid</button>
+          <button class="filter-btn" data-type="team" data-value="FC Barcelona">FC Barcelona</button>
+          <button class="filter-btn" data-type="team" data-value="Manchester City">Manchester City</button>
+          <button class="filter-btn" data-type="team" data-value="PSG">PSG</button>
+          <button class="filter-btn" data-type="team" data-value="Bayern Munich">Bayern Munich</button>
+        </div>
+      </div>
+
+      <div class="sidebar-card">
+        <h3>Ligas</h3>
+        <div class="filter-list" id="leagueFilters">
+          <button class="filter-btn" data-type="league" data-value="LaLiga">LaLiga</button>
+          <button class="filter-btn" data-type="league" data-value="Premier League">Premier League</button>
+          <button class="filter-btn" data-type="league" data-value="Ligue 1">Ligue 1</button>
+          <button class="filter-btn" data-type="league" data-value="Bundesliga">Bundesliga</button>
+        </div>
+      </div>
+
+      <div class="sidebar-card info-box">
+        <h3>Aviso</h3>
+        <p>Los pedidos se gestionan por <strong>WhatsApp</strong>.</p>
+        <p>El pago se hace por <strong>Bizum</strong>.</p>
+      </div>
+    </aside>
+
+    <section class="catalog-section">
+      <div class="section-head">
+        <div>
+          <h3>Catálogo de camisetas</h3>
+          <p id="resultsText">Cargando productos...</p>
+        </div>
+      </div>
+
+      <div id="productsGrid" class="products-grid"></div>
+    </section>
+
+    <aside class="cart-panel" id="cartPanel">
+      <div class="cart-card">
+        <div class="cart-header">
+          <h3>Tu carrito</h3>
+          <span id="cartItemsCountLabel" class="mini-pill">0 productos</span>
+        </div>
+
+        <div id="cartItems" class="cart-items">
+          <p class="empty-state">Tu carrito está vacío.</p>
+        </div>
+
+        <div class="cart-footer">
+          <div class="cart-total-row">
+            <span>Total</span>
+            <strong id="cartTotal">0,00 €</strong>
+          </div>
+
+          <a id="whatsappOrderBtn" class="order-btn disabled" href="#" target="_blank" rel="noopener noreferrer">
+            Pedir por WhatsApp
+          </a>
+
+          <p class="small-note">
+            El pedido incluirá automáticamente los productos del carrito.
+          </p>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
